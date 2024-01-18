@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liga Magic | Challenge</title>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/valdir-alves3000/portfolio/main/public/assets/icons/logo.svg"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <main class="card-info">
+      <section class="display">
+        <div class="select">
+          <img src="./assets/card01.jpg" alt="" />
+        </div>
+        <div class="carousel">
+          <img src="./assets/prev.svg" alt="" id="prev" class="control-btn" />
+          <div class="carousel-container">
+            <img src="./assets/card01.jpg" class="remove-grayscale" alt="" />
+            <img src="./assets/card02.jpg" alt="" />
+            <img src="./assets/card03.jpg" alt="" />
+            <img src="./assets/card05.jpg" alt="" />
+            <img src="./assets/card06.jpg" alt="" />
+          </div>
+          <img src="./assets/next.svg" alt="" id="next" class="control-btn" />
+        </div>
+      </section>
+      <section class="content">
+        <div class="content-info">
+          <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Magic: The Gathering</a>
+            <a href="#">Busca</a>
+            <a href="#">Bazar</a>
+            <a href="#">Lista de Desejos</a>
+          </nav>
+
+          <section class="select-edition">
+            <header>
+              <div class="content">
+                <div>
+                  <img src="./assets/fileicon.svg" alt="" />
+                  <strong>#045</strong>
+                  <span>Dominaria Remastered</span>
+                </div>
+                <span>DRM <img src="./assets/arrow.svg" alt="" /></span>
+              </div>
+              <div class="title">
+                <div>
+                  <h2>Contramágica</h2>
+                  <h3>Counterspell</h3>
+                </div>
+                <div class="icons">
+                  <img src="./assets/heart.svg" alt="" id="heart" />
+                  <img src="./assets/state-layer.svg" alt="" />
+                </div>
+              </div>
+            </header>
+          </section>
+        </div>
+
+        <section class="shopping-list">
+          <div class="title">
+            <h2>
+              Lista de Compras <img src="./assets/interrogation.svg" alt="" />
+            </h2>
+            <p>
+              Add a carta aqui e deixe que a Liga calcule o melhor preço para
+              você!
+            </p>
+          </div>
+          <div class="buttons">
+            <div class="counter-filter">
+              <div class="counter-select">
+                <img src="./assets/plus.svg" alt="" id="plus" />
+                <span id="quantity">1</span>
+                <img src="./assets/minus.svg" alt="" id="minus" />
+              </div>
+              <img src="./assets/state-layer-column.svg" alt="" class="layer" />
+            </div>
+
+            <button>
+              <img src="./assets/plus-02.svg" alt="" />
+              <strong>adicionar na lista</strong>
+            </button>
+          </div>
+        </section>
+
+        <section class="card-chart">
+          <article class="details">
+            <header>
+              <h3>Detalhes da Carta</h3>
+              <span>ver tudo</span>
+            </header>
+
+            <ul class="chart">
+              <li>
+                <span>Cor</span>
+                <span>AZUL</span>
+              </li>
+              <li>
+                <span>Custo de Mana</span>
+                <div id="mana">
+                  <img src="./assets/bubble.svg" alt="" />
+                  <img src="./assets/bubble.svg" alt="" />
+                </div>
+              </li>
+              <li>
+                <span>Tipo</span>
+                <span>Mágica Instantânea</span>
+              </li>
+            </ul>
+          </article>
+          <div class="price">
+            <header>
+              <h3>Preço Médio no Marketplace</h3>
+              <span>ver tudo</span>
+            </header>
+            <div>
+              <div class="type">
+                <img id="letter" src="./assets/letra-n.png" alt="" />
+                <span>Normal</span>
+              </div>
+
+              <div class="values">
+                <span>R$ 6,28</span>
+                <span>R$ 9,39</span>
+                <span>R$ 14,00</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./js/app.js" defer></script>
+  </body>
+</html>

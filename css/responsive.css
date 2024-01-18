@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+  .card-info {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+
+  .display {
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+    border: none;
+  }
+
+  .display .select {
+    width: 245px;
+    min-height: 342px;
+    height: 342px;
+  }
+
+  .display .select img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .carousel-container {
+    height: 130px;
+  }
+
+  .carousel-container img {
+    width: 68px;
+    height: 102px;
+  }
+
+  .carousel-container::-webkit-scrollbar {
+    height: 2px;
+  }
+
+  .carousel-container::-webkit-scrollbar-track {
+    background: var(--gray-300);
+    border-radius: 5px;
+  }
+
+  .carousel-container::-webkit-scrollbar-thumb {
+    background: var(--gray-500);
+    border-radius: 5px;
+  }
+
+  .control-btn {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .navbar a {
+    padding: 0 0.5rem;
+  }
+
+  .shopping-list {
+    height: 240px;
+  }
+
+  .shopping-list .buttons {
+    flex-direction: column;
+  }
+}
